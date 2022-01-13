@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 import algoliasearch from 'algoliasearch/lite';
 
 const searchClient = algoliasearch(
-  'B1G2GM9NG0',
-  'aadef574be1f9252bb48d4ea09b5cfe5'
+  '7H0PE1MI2P',
+  '1ba6db3d56a89b8792b6247ba1b394ec'
 );
 
 @Component({
@@ -13,7 +13,7 @@ const searchClient = algoliasearch(
 })
 export class AppComponent {
   config = {
-    indexName: 'demo_ecommerce',
+    indexName: 'flix-posts-finished',
     searchClient
   };
 }
